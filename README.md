@@ -21,6 +21,7 @@ A responsive dashboard that allows instructors to view the schedules of availabl
 - HTML
 - Tailwind CSS
 - JavaScript
+- Python (Flask)
 
 ## What I Learned
 
