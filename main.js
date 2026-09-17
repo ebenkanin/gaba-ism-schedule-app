@@ -81,7 +81,7 @@ const initiateRecordsRetrieval = async ()=>{
 
 
     let numAvailable = 0
-    let numOnSchedule = 0
+    let numOnSchedule = data.length
 
     // Creating cards to be appended to the DOM
 
@@ -154,7 +154,7 @@ const initiateRecordsRetrieval = async ()=>{
             status.textContent = 'On schedule'
             status.classList.add('bg-blue-500')
 
-            numOnSchedule++
+            
 
         }
 
